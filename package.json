@@ -1,5 +1,5 @@
 {
-  "name": "general-utils",
+  "name": "@johnmmackey/general-utils",
   "version": "1.0.0",
   "description": "General Utilities",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "TBD"
+    "url": "git@github.com:johnmmackey/general-utils.git"
   },
   "author": "John Mackey",
   "license": "ISC"
