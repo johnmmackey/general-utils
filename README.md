@@ -1,6 +1,8 @@
 # General utilities
 ## jSTrimMask
 A formatter for use with `JSON.stringify` where long string properties or secrets are involved.
+
+### Usage
 ```js
 JSON.stringify(obj, jSTrimMask({ trim: 60, mask: ['field1', 'field2']}, 2)
 ```
@@ -9,4 +11,4 @@ JSON.stringify(obj, jSTrimMask({ trim: 60, mask: ['field1', 'field2']}, 2)
 It performs the following functions:
 * trims all string properties to a length limit specified by `trim`
 * replaces all string fields listed in the `mask` array with obfuscation text
-* 
+  
